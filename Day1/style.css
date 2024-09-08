@@ -1,0 +1,25 @@
+body{
+    background-color: black;
+}
+#mainbox{
+width: 250px;
+height: 250px;
+background-color: aquamarine;
+position: absolute;
+animation-name: basicAnime;
+animation-duration: 2s;
+animation-delay: 1s;
+}
+
+@keyframes basicAnime {
+    from{
+     left: 0;
+     background-color: blueviolet;
+     top: 0;
+    }
+    to{
+   left: 60%;
+    background-color: brown;
+    top: 50%;
+    }
+}
